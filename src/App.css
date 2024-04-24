@@ -90,12 +90,12 @@
   background-color: yellow;
 }
 
-.card-content .title,
-.modal-content .title {
+.card-content .title {
   margin: 1rem 0;
   font-weight: 900;
   font-size: 1.3rem;
   color: black;
+  cursor: pointer;
 }
 
 .card-content .content {
@@ -166,6 +166,13 @@
 .modal-image img {
   width: 100%;
   height: 100%;
+}
+
+.modal-content .title {
+  margin: 1rem 0;
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: black;
 }
 
 .modal-content .auther {
