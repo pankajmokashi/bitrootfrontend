@@ -134,7 +134,13 @@
 
 .modal-div {
   width: 90%;
+  max-height: calc(100vh - 5rem);
   background-color: white;
+  overflow-y: scroll;
+}
+
+.modal-div::-webkit-scrollbar {
+  display: none;
 }
 
 .modal-div .close {
