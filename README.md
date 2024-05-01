@@ -27,3 +27,8 @@
 
 ### Resources:
 - [The API endpoint](https://my-json-server.typicode.com/Codeinwp/front-end-internship-api/posts)
+
+---
+
+### Live Link:
+- https://bitroot-frontend.netlify.app/
