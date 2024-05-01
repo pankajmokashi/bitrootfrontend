@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+### Instructions:
+- You will build a simple React application that will fetch data from an [API](https://my-json-server.typicode.com/Codeinwp/front-end-internship-api/posts) and display it using the attached design;
+- We need to see that you know your way around CSS and JS, so this must be built without using existing React component libraries or CSS frameworks. You can, however, use any scaffolding tool (like create-react-app), or other NPM packages that might be useful;
+- The React part of the application must be built using Function Components and Hooks (not classes);
+- You can write your stylesheet in either plain CSS, or SCSS - bonus points for using SCSS;
+- You should make sure the interface is responsive and works fine on mobile screens;
+- We know we don't provide measurable references, so we don't expect this to be pixel perfect, but making it as close to the reference images as possible constitutes a big bonus;
+- In this repository you will find two attached images that will be used as a reference to create your application;
+- You can get creative with transitions, loading state and interactions;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Design:
+- As a starting reference, the container width for this application will be `1200px` wide.
+- The font family used across the whole design is [Lato](https://fonts.google.com/specimen/Lato?query=lato) and you can request it from Google Fonts;
+- The [first image](https://raw.githubusercontent.com/bitroot-org/frontend-intern-test/main/posts.jpeg) represents the main view of the app. Here you will display the data fetched from the API endpoint. 
+- The last card represents the card hover state;
+- When clicking the `Learn More` button or the title, the modal from the second image should pop up;
 
-In the project directory, you can run:
+![posts](https://raw.githubusercontent.com/bitroot-org/frontend-intern-test/main/posts.jpeg)
 
-### `npm start`
+- The [second image](https://raw.githubusercontent.com/bitroot-org/frontend-intern-test/main/posts-modal.jpeg) shows the modal opened;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![posts with modal](https://raw.githubusercontent.com/bitroot-org/frontend-intern-test/main/posts-modal.jpeg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Resources:
+- [The API endpoint](https://my-json-server.typicode.com/Codeinwp/front-end-internship-api/posts)
